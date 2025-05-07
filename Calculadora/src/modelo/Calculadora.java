@@ -10,4 +10,25 @@ package modelo;
  */
 public class Calculadora {
     
+    // TODO Javier
+    public int factorial(int n){
+        int resultado = 0;
+        
+        return resultado;
+    }
+    
+    // TODO Iván
+    public int fibonacci(int n){
+        int resultado = 0;
+        
+        return resultado;
+    }
+    
+    // TODO Samuel
+    public double sqrt(int n){
+        double resultado = 0;
+        
+        return resultado;
+    }
+    
 }
