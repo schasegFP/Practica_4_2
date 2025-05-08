@@ -26,9 +26,7 @@ public class Calculadora {
     
     // TODO Samuel
     public double sqrt(int n){
-        double resultado = 0;
-        
-        return resultado;
+	return Math.sqrt(n);
     }
     
 }
