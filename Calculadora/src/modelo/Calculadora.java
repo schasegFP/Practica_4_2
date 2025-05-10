@@ -12,10 +12,13 @@ public class Calculadora {
     
     // TODO Javier
     public int factorial(int n){
-        int resultado = 0;
-        
-        return resultado;
+           int factorial = 1;
+    for (int i = 2; i <= n; ++i) {
+      factorial *= i;
     }
+    return factorial;
+  }
+    
     
     // TODO Iván
     public int fibonacci(int n){
@@ -38,9 +41,7 @@ public class Calculadora {
     
     // TODO Samuel
     public double sqrt(int n){
-        double resultado = 0;
-        
-        return resultado;
+	return Math.sqrt(n);
     }
     
 }
