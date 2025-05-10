@@ -19,8 +19,20 @@ public class Calculadora {
     
     // TODO Iván
     public int fibonacci(int n){
-        int resultado = 0;
-        
+        if(n <= 0) {
+	    return 0;
+	} else if (n == 1) {
+	    return 1;
+	}
+	
+	int a  = 0, b = 1, resultado = 0;
+	for (int i = 2; i <= n; i ++) {
+		resultado = a + b;
+		a = b;
+		b = resultado;
+	}
+
+	        
         return resultado;
     }
     
